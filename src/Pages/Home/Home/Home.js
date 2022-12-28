@@ -1,10 +1,14 @@
+
 import React from 'react';
+import Intext from '../Intext/Intext';
+import Media from '../Media/Media';
 
 
 const Home = () => {
     return (
         <div className='mx-5'>
-            <h2>this is Home</h2>
+            <Intext></Intext>
+            <Media></Media>
         </div>
     );
 };
